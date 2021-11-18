@@ -17,7 +17,7 @@ const getExecutionFunction = (siteKey, action) => {
     function(args) {
       window.ReactNativeWebView.postMessage(args);
     }
-  )`;
+  ); void(0)`;
 };
 const getInvisibleRecaptchaContent = (siteKey, action) => {
     return `<!DOCTYPE html><html><head>
